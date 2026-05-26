@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+.signin-container {
+  max-width: 420px;
+  padding: 2rem;
+  margin: 4rem auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(33, 37, 41, 0.08);
+}
+
+#loginLogo {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+#dashboardMain {
+  margin-top: 2rem;
+}
+.card-custom {
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+.card-custom:hover {
+  transform: translateY(-4px);
+}
+.card-custom .card-body img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+@media (max-width: 992px) {
+  #dashboardMain .col-lg-4,
+  #dashboardMain .col-lg-8 {
+    width: 100%;
+  }
+}
+#dashboardFooter {
+  margin-top: 2rem;
+}
